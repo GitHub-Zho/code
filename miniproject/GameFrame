@@ -1,0 +1,23 @@
+public class GameFrame extends JFrame {
+    GameFrame(){
+        initial();
+        
+
+    }
+
+    private void initial() {
+        this.setTitle("Game Console");
+        this.setSize(400,400);
+
+        setVisible(true);
+    
+    } 
+
+    private void start() {
+        while()
+    }
+
+    private void display() {
+        
+    }
+}
