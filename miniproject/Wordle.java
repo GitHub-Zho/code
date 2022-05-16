@@ -4,7 +4,12 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Wordle {
+
+/**
+ * All infor about the game 
+ * like the rank, the author
+ */
+public class Wordle implements WrongInput{
     private static ArrayList<String> rank;
     private int round;
     private int fastone;
@@ -16,7 +21,9 @@ public class Wordle {
 
 
     
-
+/**
+ * into the game
+ */
     public void start() {
         while(true){
             rules();
@@ -28,17 +35,23 @@ public class Wordle {
             
         }
         else{
-            WrongInput();          
+            wrongInput();          
             }
         }
         
     }
 
+    /**
+     * creat a game class
+     */
     private void newGame(){
         Game aGame = new Game();
         aGame.start();
     }
 
+    /**
+     * print the rules of the game
+     */
     private static void rules() {
         out.println();
         out.println("welcome to our wordle game!");
@@ -53,15 +66,5 @@ public class Wordle {
         out.println("Now ,press 'J' to start the game!");
     }
 
-    private void WrongInput() {
-        out.println("Wrong input, plz try again");
-        try {
-            Thread.sleep(2000);
-            
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        System.out.flush(); 
-    }
+    
 }

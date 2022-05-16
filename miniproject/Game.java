@@ -20,7 +20,11 @@ public class Game implements WrongInput{
     public static void main(String[] args) {
         new Game().start();
     }
-
+/**
+ * start the game
+ * recieve the input and store it
+ * send it to compare() 
+ */
     public void start() {
         receiver = new Scanner(System.in);
         while(true){
@@ -43,7 +47,10 @@ public class Game implements WrongInput{
         
 
     }
-
+/**
+ * print the info of all tries
+ * @return used to deside whether continue or not
+ */
     private boolean end() {
         out.println();
         out.println("The answer is \033[32;1m"+keyWord+"\033[0m");
@@ -61,7 +68,10 @@ public class Game implements WrongInput{
         }
         
     }
-
+/**
+ * to reset the params
+ * 
+ */
     private void initialize() {
         tries =0;
         guess = null;
@@ -83,6 +93,10 @@ public class Game implements WrongInput{
         keyWord ="yield";
     }
 
+    /**
+     * compare the guess word and the key word
+     * then call the printguess() to print the feedback
+     */
     private void compare() {
         if(guess.equals(keyWord)){
             win++;
@@ -112,7 +126,10 @@ public class Game implements WrongInput{
         
                 
     }
-
+/**
+ * print the word 
+ * @param index the num of the word
+ */
     private void printGuess(int index) {
         if(words != null && words.size() > index){
                 String s = words.get(index);
@@ -156,7 +173,7 @@ public class Game implements WrongInput{
 
     /***
      * it can invoke some interface implemented by others to judge whether "guess" is a valid word
-     * buti will just return true so far 
+     * but for now i will just return true 
      * 
      * @param guess 
      * @return
