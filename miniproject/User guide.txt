@@ -1,0 +1,25 @@
+hello teacher,
+
+my java program is in the "with GUI" file
+because the program needs to read a wordlist file
+so it have to running in the "with GUI" path to read from the same path
+----------------------------------------------------------------------
+and you can start the game by click start button
+and then you can --- press the "Enter" button on you keybord --- to submit your guess
+----------------------------------------------------------------------
+I want it to be like the game mechine we have played before,
+so i have try my best to make it's picture and the structure more like the game mechine.
+
+(like the storage, the outermost layer itself like the game mechine which only stores the rank of player,
+and after the mechina is power off, the storage will be clean. 
+And when you go back to the outermost layer from the game and try to start a new game,
+it will consider you a new player, and etc.)
+---------------------------------------------------------------------
+The one "without GUI" file is the program which can not played in cmd 
+because there is an usage of "Escape characters" (i dont know whether it has been translated right)
+in the "print" function can be only used in IDEs like vscode or idea
+
+but i really like the rustic and minimalist style from the terminal 
+so although i do not complete it so well 
+but i still want to submit it and hope you would like it       : ）
+ ---------------------------------------------------------------------
