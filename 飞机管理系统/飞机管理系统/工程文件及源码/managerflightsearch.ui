@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerFlightSearch</class>
+ <widget class="QWidget" name="ManagerFlightSearch">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>航班号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>落地时间</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>飞行员2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QDateTimeEdit" name="endTime"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="seatType"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>起飞时间</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="id"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="type"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QDateTimeEdit" name="startTime"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>飞行员1</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="managerFlightSearchAdmit">
+     <property name="text">
+      <string>发起查询</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="managerFlightSearchReturn">
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

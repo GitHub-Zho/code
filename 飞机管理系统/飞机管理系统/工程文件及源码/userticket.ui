@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserTicket</class>
+ <widget class="QWidget" name="UserTicket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>628</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="history">
+       <property name="text">
+        <string>历史订单</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="unPay">
+       <property name="text">
+        <string>未支付订单</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="buy">
+       <property name="text">
+        <string>支付或取消改订单</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="userTicketReturn">
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>     航班号      </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="userTicketFlight"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="userTicketSearch">
+       <property name="text">
+        <string>搜索</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

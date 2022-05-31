@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerInfo</class>
+ <widget class="QWidget" name="ManagerInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>514</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="managerInfoReturn">
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QLabel" name="company">
+       <property name="text">
+        <string>公司</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="mailEdit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="id">
+       <property name="text">
+        <string>账号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="mail">
+       <property name="text">
+        <string>邮箱</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="name">
+       <property name="text">
+        <string>姓名</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="password">
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="passwordEdit"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="idEdit"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="companyEdit"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="nameEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="managerInfoChange">
+     <property name="text">
+      <string>修改</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

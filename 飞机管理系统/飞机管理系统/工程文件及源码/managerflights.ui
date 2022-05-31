@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerFlights</class>
+ <widget class="QWidget" name="ManagerFlights">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="1">
+    <widget class="QPushButton" name="managerFlightAdd">
+     <property name="text">
+      <string>航班添加</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="flightAlready">
+     <property name="text">
+      <string>已发布公司航班</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="flightReady">
+     <property name="text">
+      <string>未发布航班修改</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="managerFlightDelete">
+     <property name="text">
+      <string>航班删除</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QPushButton" name="managerFlightReturn">
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="managerFlightSubmit">
+     <property name="text">
+      <string>选定航班发布</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="managerFlightPreserve">
+     <property name="text">
+      <string>保存更改</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="managerFlightRevert">
+     <property name="text">
+      <string>撤销更改</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

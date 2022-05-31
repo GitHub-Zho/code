@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserInfo</class>
+ <widget class="QWidget" name="UserInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <property name="horizontalSpacing">
+      <number>2</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>5</number>
+     </property>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="idEdit_2"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="nameEdit_2"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="name_2">
+       <property name="text">
+        <string>姓名</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="phone">
+       <property name="text">
+        <string>电话</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="sexEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="sex">
+       <property name="text">
+        <string>性别</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="phoneEdit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="id_2">
+       <property name="text">
+        <string>账号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="password_2">
+       <property name="text">
+        <string>密码</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="passwordEdit_2"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="mailEdit_2"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="mail_2">
+       <property name="text">
+        <string>邮箱</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="userInfoChange">
+     <property name="text">
+      <string>修改</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="userInfoReturn">
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

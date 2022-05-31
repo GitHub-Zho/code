@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerUser</class>
+ <widget class="QWidget" name="ManagerUser">
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QPushButton" name="managerUserTicket">
+       <property name="text">
+        <string>公司订单</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="managerUserSet">
+       <property name="text">
+        <string>本公司未飞航班</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="managerUserOff">
+       <property name="text">
+        <string>已飞上座率排序</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="managerUserPrice">
+       <property name="text">
+        <string>已飞总票价排序</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="managerUserReturn">
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
